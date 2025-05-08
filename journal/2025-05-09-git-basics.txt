@@ -1,0 +1,17 @@
+# Git basics
+_Date: 2025-05-09_
+
+## 🧠 What I Learned
+- How to use Git together with GitHub.
+- Why Git is an essential tool for every developer.
+
+## 🛠️ What I Practiced
+- Created a repository for the dev journal.
+- Pushed all journal entries to the repository.
+
+## 🤔 Struggles or Confusions
+- till figuring out the best way to structure different types of content in a repo, 
+especially how to keep notes, projects, and scripts organized clearly.
+
+## 🌟 Reflection
+- With the ability to use git, now all the journal entries will be easy to organize and upload to GitHub. 
