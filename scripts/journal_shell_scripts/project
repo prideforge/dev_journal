@@ -1,0 +1,38 @@
+#!/bin/bash
+read -p "Enter project title: " title
+
+date_prefix=$(date +%Y-%m-%d)
+
+name=$(echo "$title" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | tr -cd '[:alnum:]-')
+
+filename="${date_prefix}-${name}.txt"
+
+
+cat > "$filename" <<EOF
+# Project: $title
+_Date: ${date_prefix}_
+
+## 📚 Project Description
+(A short paragraph explaining what the project is about.)
+
+## 🛠️ Key Skills Practiced
+- (Skill 1)
+- (Skill 2)
+- (Skill 3)
+
+## 🤔 Challenges Faced
+- (Problem 1 you had and how you solved or plan to solve it)
+- (Problem 2)
+
+## 🧠 What I Learned
+- (List or short paragraph about new things you learned.)
+
+## 🚀 Future Improvements
+- (What you could add or improve if you had more time.)
+
+## 🔗 Project Files or Code
+The script is located in the `scripts/` folder of this repo. 
+EOF
+
+code "$filename"
+echo "Created and opened $filename"

@@ -1,0 +1,29 @@
+#!/bin/bash
+read -p "Enter journal entry title: " title
+
+date_prefix=$(date +%Y-%m-%d)
+
+name=$(echo "$title" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | tr -cd '[:alnum:]-')
+
+filename="${date_prefix}-${name}.txt"
+
+
+cat > "$filename" <<EOF
+# $title
+_Date: ${date_prefix}_
+
+## 🧠 What I Learned
+- (Bullet points of key ideas you learned or refreshed.)
+
+## 🛠️ What I Practiced
+- (What you coded, tested, built, or played with.)
+
+## 🤔 Struggles or Confusions
+- (Anything that felt confusing, hard, or worth revisiting.)
+
+## 🌟 Reflection
+- (One or two sentences about how you feel after this session — proud, frustrated, determined, etc.)
+EOF
+
+code "$filename"
+echo "Created and opened $filename"

@@ -1,0 +1,20 @@
+# Command Line Basics
+_Date: 2025-05-08_
+
+## 🧠 What I Learned
+- Basic terminal commands.
+- How to navigate and work with files and directories in the terminal.
+- How to use man command.
+
+## 🛠️ What I Practiced
+- Changing working directory.
+- Listing files.
+- Creating, moving, renaming and copying files and directories.
+- Wrote a shell script to automate journaling and make it a faster, repeatable task. 
+
+## 🤔 Struggles or Confusions
+- Struggled a bit how to add custom scripts to $PATH
+
+## 🌟 Reflection
+- Feeling good about understanding now how I can make my own shell scripts. It should automate a 
+lot of mundane and repeating processes.

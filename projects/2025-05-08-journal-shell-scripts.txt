@@ -1,0 +1,25 @@
+# Project: Journal shell scripts
+_Date: 2025-05-08_
+
+## 📚 Project Description
+Two small scripts to make creating journal and project dev entries fast and easily repeatable.
+
+## 🛠️ Key Skills Practiced
+- Using and piping terminal commands.
+- Working with variables.
+- Adding scripts to path.
+
+## 🤔 Challenges Faced
+- Needed new commands to get user input and how to replace certain characters inside input string
+- Understanding how to make scripts executable and how to include them in $PATH
+
+## 🧠 What I Learned
+- How to make executable scripts for shell
+- New commands like tr, sd and cat.
+- Some piping
+
+## 🚀 Future Improvements
+- Some form of a file content modifications could be made in the future, but right now it's exactly what was needed. 
+
+## 🔗 Project Files or Code
+The script is located in the /scripts folder of this repo. 
