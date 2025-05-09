@@ -1,0 +1,15 @@
+# HTML Boilerplate
+_Date: 2025-05-09_
+
+## 🧠 What I Learned
+- What an HTML boilerplate is
+- The purpose of <!DOCTYPE>, <html>, <head>, and <body> tags, plus some additional ones
+
+## 🛠️ What I Practiced
+- Wrote boilerplate for index.html
+
+## 🤔 Struggles or Confusions
+- No struggles as I'm already familiar with the stuff
+
+## 🌟 Reflection
+- Even though I know this stuff already, it was good to reread through it so I can better explain myself if needed.
